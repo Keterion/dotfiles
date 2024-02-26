@@ -1,0 +1,10 @@
+/*
+
+!/.gitignore
+!/alacritty/
+!/bottom/
+!/cava/
+!/mpd/
+!/mpv/
+!/nvim/
+!add_to_git.sh

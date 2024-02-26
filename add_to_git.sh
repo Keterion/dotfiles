@@ -16,7 +16,7 @@ read -p "Select indicies to whitelist: " indicies
 for i in $indicies; do # appends the files/directories to .gitignore
   echo adding ${possible[$i]} to .gitignore
   if [[ -d ${possible[$i]} ]]; then
-    echo "!${possible[$i]}/" >> .gitignore
+    echo "!/${possible[$i]}/" >> .gitignore
   else
     echo "!${possible[$i]}" >> .gitignore
   fi
